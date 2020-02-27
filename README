@@ -1,0 +1,29 @@
+This is README file for Algorithm PA#1
+Author: Tsai Pei Huan / b07901087
+Date:10/10
+=====
+SYNOPSIS:
+
+mysort -[IS|MS|QS|HS] <input_file_name> <output_file_name>
+
+This program supports four different sorting methods: insertion sort, merge sort, quick sort and heap sort.
+=====
+DIRECTORY:
+
+bin/	  executable binary
+inputs/   input data (unsorted)
+outputs/  output result (sorted)
+src/ 	  source C++ codes
+======
+HOW TO CIMPILE:
+
+Then compile the demo, simply follow the following steps
+	make
+======
+HOW TO RUN:
+
+	cd bin/
+	./bin/NTU_sort ¡V[IS|MS|QS|HS] <input_file_name> <output_file_name>
+	For example,
+	./bin/NTU_sort ¡VMS inputs/1000.case1.in outputs/1000.case1.out
+
